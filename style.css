@@ -1,0 +1,40 @@
+.navbar{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 3;
+}
+
+body{
+    margin:0;
+    font-family: Tahoma;
+}
+a {
+    text-decoration: none;
+}
+.list{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.list li{
+    margin-left:15px;
+    cursor: pointer;
+}
+
+.explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background-color: yellow;
+}
+
+.explore div{
+background-color: red;
+width: 50%;
+margin-left:10px;
+height:300px;
+}
